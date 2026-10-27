@@ -1,7 +1,7 @@
 - name: ping demo
   hosts: local
   connection: local
-  tasks
+  tasks:
   - name: ping localhost
     ping:
 
