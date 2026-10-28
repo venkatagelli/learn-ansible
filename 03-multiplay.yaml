@@ -15,7 +15,7 @@
   tasks:
     - name: Play 2 task 1
       debug:
-        masg: "Play 2 task 1"
+        msg: "Play 2 task 1"
     - name: play 2 task 2
       debug:
         msg: "play 2 task 2"
