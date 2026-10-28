@@ -3,5 +3,6 @@
   become: yes
   tasks:
     - name: install nginx
-      package: nginx
-      state: present
+      package: 
+        - name: nginx
+          state: present
