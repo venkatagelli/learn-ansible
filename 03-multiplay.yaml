@@ -1,5 +1,5 @@
 - name: play 1
-  host: local 
+  hosts: local 
   connection: local
   tasks:
     - name: Task 1 play 1
@@ -10,7 +10,7 @@
         msg: "Taks1 play 2"
 
 - name: play 2
-  host: local
+  hosts: local
   connection: local
   tasks:
     - name: Play 2 task 1
