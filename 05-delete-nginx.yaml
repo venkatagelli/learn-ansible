@@ -6,7 +6,7 @@
       service:
         name: nginx
         state: stopped
-        disablws: yes
+        disable: yes
 
     - name: remove nginx
       package: 
