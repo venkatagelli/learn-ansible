@@ -1,0 +1,11 @@
+- name: Vaeiables
+  host: local
+  connection: local
+  tasks:
+    vars:
+      course: devops
+      trainer: Siva
+      duration: 5 months
+    - name: print variables
+      debug:
+        msg: "I am learning {{course}} from {{trainer}}. Duration is {{duration}}"
