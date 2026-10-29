@@ -1,0 +1,15 @@
+- name: stop and uninstall nginx
+  hosts: frontend 
+  become: yes
+  tasks:
+    - name: stop nginx
+      service:
+        name: nginx
+        state: stopped
+        disablws: yes
+
+    - name: remove nginx
+      package: 
+         name: nginx
+         state: absent
+
