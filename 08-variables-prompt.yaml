@@ -2,11 +2,11 @@
   hosts: local
   connection: local
   vars_prompt:
-    - name: username
+      name: username
       username: enter your username
       public: yes
 
-    - name: password
+      name: password
       password: enter password
       public: no
 
