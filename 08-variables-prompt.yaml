@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars_prompt:
-    - name: username
+    - name: userame
       prompt: enter your username
       private: no
 
@@ -13,5 +13,5 @@
   tasks:
     - name: print user and password
       debug:
-        msg: "username {{userame}} password {{password}}"
+        msg: "username {{username}} password {{password}}"
 
