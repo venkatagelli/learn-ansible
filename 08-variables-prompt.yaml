@@ -8,7 +8,7 @@
 
     - name: password
       prompt: enter password
-      private: yea
+      private: yes
 
   tasks:
     - name: print user and password
