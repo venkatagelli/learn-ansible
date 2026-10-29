@@ -1,5 +1,5 @@
-- name: Vaeiables
-  host: local
+- name: Variables
+  hosts: local
   connection: local
   tasks:
     vars:
@@ -8,4 +8,4 @@
       duration: 5 months
     - name: print variables
       debug:
-        msg: "I am learning {{course}} from {{trainer}}. Duration is {{duration}}"
+        msg: "I am learning {{ course }} from {{ trainer }}. Duration is {{ duration }}."
