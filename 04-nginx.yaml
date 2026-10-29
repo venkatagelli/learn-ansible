@@ -12,3 +12,12 @@
         name: nginx
         state: started
         enabled: yes
+
+
+        ## adhoc 
+        ## playbook
+        ## basic play book script
+        ## inverntory
+        ## roles
+        ## module
+        ## shell vs command
