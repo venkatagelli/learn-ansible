@@ -13,5 +13,5 @@
   tasks:
     - name: print user and password
       debug:
-        msg: username {{userame}} password {{password}}
+        msg: "username {{userame}} password {{password}}"
 
